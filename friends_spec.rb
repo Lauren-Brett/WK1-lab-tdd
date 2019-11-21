@@ -91,13 +91,18 @@ def test_favourite_food_true_or_false
 
   assert_equal(true, result)
   assert_equal(false, result_2)
+
+  #asert()
+  #refute() these are if you know its its ture or flase you are lookin for
 end
 
 
   # 4. For a given person, add a new name to their list of friends
   # (e.g. the function add_friend(@person2, "Scrappy-Doo") should add Scrappy-Doo to the friends.)
 def test_add_a_friend_into_an_array
-  result = total_friends_list.length
+  add_friend(@person[:friends] )
+
+
 
   assert_equal(, result)
 
